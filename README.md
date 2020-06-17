@@ -1,2 +1,2 @@
 # Full_Stack
-My Full-Stack Projects
+Minor and Major Projects
