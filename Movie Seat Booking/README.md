@@ -1,12 +1,9 @@
 ## Introduction
 
-A UI is built which is like a movie theatre website where we can pick up our seats 
-when we pick the movie.
-We have different prices for different movies, 
-a legend where blue shows already occupied seats and white shows 'not-yet-occupied'.
+*A UI is built which is like a movie theatre website where we can pick up our seats 
+when we pick the movie.We have different prices for different movies, a legend where blue shows already occupied seats and white shows 'not-yet-occupied'.
 The number of seats you filled for, shows your total bill.
-
-We will use local storage for storing the seats that you filled.
+We will use local storage for storing the seats that you filled.*
 
 
 ### HTML file description
@@ -22,6 +19,7 @@ Inside the select box there are 4 options where the value is the cost of a ticke
 
 Next, we have created a showcase container. It has classes of occupied, not occupied and selected seats.
 This is basically a legend.
+
 ----------Rows of seats--------
 A container class is used which consists of a screen and also the rows of seats.The screen container is empty; it is just used for css styling.Next we add all divs with class "seat" or
 "seat occupied".
