@@ -1,14 +1,16 @@
---------Introduction------------------
+## Introduction
+
 A UI is built which is like a movie theatre website where we can pick up our seats 
 when we pick the movie.
 We have different prices for different movies, 
 a legend where blue shows already occupied seats and white shows 'not-yet-occupied'.
 The number of seats you filled for, shows your total bill.
-----------
+
 We will use local storage for storing the seats that you filled.
 
----------------------------//----------------
---HTML file description---
+
+#### HTML file description
+
 The title of the page is given to be Movie seat booking , and the linking to the css file and javascript file are made.
 ------------------Select Movie part-----------------------
 A div container of class "movie-container" is made. Label of 'Select a Movie' is added.
@@ -22,7 +24,8 @@ A container class is used which consists of a screen and also the rows of seats.
 "seat occupied".
 In the end, we show the count of seats that is selected dynamically.
 
-------Styling---------
+#### Styling
+
 The styling is given in mycss.css file. 
 First, a suitable font has been chosen from the google font api.
 The 'box-sizing:border-box' ensures that there is no added width.
