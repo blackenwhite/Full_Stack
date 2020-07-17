@@ -54,6 +54,19 @@ The seats are designed in a similar manner and to make them display row-wise, we
 To add gap between the second and third row we used css pseudoselector 
 ```.seat:n-th-of-type(2)```
 
+### Script File
+
+The different elements that we need has been occupied in the form of variables.
+```.querySelectorAll('.row .seat:not(.occupied)');``` selects all those seats which are not occupied.
+
+Different functions  and eventlisteners are added; the important ones are described below:
+
+```movieSelect.addEventListener('change', e => ``` is a movie select event which acts on only the unselected seats and toggles them to selected and vice versa.Also after the click the total price gets updated.
+
+The countUpdate is required to  update the total and the count of seats selected and save it to local storage.
+
+
+
 
 
 
