@@ -1,3 +1,10 @@
+# Project Specifications
+* An UI showing movies to select, a screen, seats etc
+* Locally stored info about which seats are selected
+* Showing updated price and the number of selected after each selection or de-selection 
+
+# Documentation
+
 ## Introduction
 
 *A UI is built which is like a movie theatre website where we can pick up our seats 
@@ -20,7 +27,7 @@ Inside the select box there are 4 options where the value is the cost of a ticke
 Next, we have created a showcase container. It has classes of occupied, not occupied and selected seats.
 This is basically a legend.
 
-----------Rows of seats--------
+*Row of seats
 A container class is used which consists of a screen and also the rows of seats.The screen container is empty; it is just used for css styling.Next we add all divs with class "seat" or
 "seat occupied".
 In the end, we show the count of seats that is selected dynamically.
@@ -33,7 +40,7 @@ The 'box-sizing:border-box' ensures that there is no added width.
 Next, we use "display:flex" to place the box in the centre both horizontally and vertically. flex-direction is changed from default row to column.Contents are aligned centrally.
 For the movie-container, design is done according to pixels so that in every operating system and every browser the design looks same.
 //Code snippet:
-```
+code(
 .movie-container select {
   background-color: #fff;
   border: 0;
@@ -45,7 +52,7 @@ For the movie-container, design is done according to pixels so that in every ope
   -webkit-appearance: none;
   appearance: none;
 }
-```
+)
 
 The seats are designed in a similar manner and to make them display row-wise, we use :----
            ``` .row {
@@ -82,9 +89,7 @@ An eventListener has been added to the container class ; we can togggle from sel
 
 ``` function setMovieData(mI, mP) ``` is a function that is used frequently for setting movieIndex and moviePrice
 
-# Project Specifications
-* An UI showing movies to select
-* hola
+
 
 
 
