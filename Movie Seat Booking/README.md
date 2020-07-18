@@ -83,8 +83,8 @@ An eventListener has been added to the container class ; we can togggle from sel
 ``` function setMovieData(mI, mP) ``` is a function that is used frequently for setting movieIndex and moviePrice
 
 # Project Specifications
-Markup: * An UI showing movies to select
-        * hola
+* An UI showing movies to select
+* hola
 
 
 
