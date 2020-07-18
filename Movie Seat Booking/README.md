@@ -28,6 +28,7 @@ Next, we have created a showcase container. It has classes of occupied, not occu
 This is basically a legend.
 
 *Row of seats*
+
 A container class is used which consists of a screen and also the rows of seats.The screen container is empty; it is just used for css styling.Next we add all divs with class "seat" or
 "seat occupied".
 In the end, we show the count of seats that is selected dynamically.
@@ -41,7 +42,7 @@ Next, we use "display:flex" to place the box in the centre both horizontally and
 For the movie-container, design is done according to pixels so that in every operating system and every browser the design looks same.
 //Code snippet:
 
-code(
+`
 .movie-container select {
   background-color: #fff;
   border: 0;
@@ -53,7 +54,7 @@ code(
   -webkit-appearance: none;
   appearance: none;
 }
-)
+`
 
 The seats are designed in a similar manner and to make them display row-wise, we use :----
            ``` .row {
