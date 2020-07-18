@@ -63,7 +63,22 @@ Different functions  and eventlisteners are added; the important ones are descri
 
 ```movieSelect.addEventListener('change', e => ``` is a movie select event which acts on only the unselected seats and toggles them to selected and vice versa.Also after the click the total price gets updated.
 
-The countUpdate is required to  update the total and the count of seats selected and save it to local storage.
+The ```updatesc()``` is required to  update the total and the count of seats selected and save it to local storage.
+LocalStorage has ben used whenever required to save the data locally, so that the list of selected seats are not lost each time we refresh the page.
+An eventListener has been added to the container class ; we can togggle from selected to unselected and vice-versa. 
+```c.addEventListener('click', e => {
+  if (
+    e.target.classList.contains('seat') &&
+    !e.target.classList.contains('occupied')
+  ) {
+    e.target.classList.toggle('selected');
+
+    updateSc();
+  }
+});```
+
+
+``` function setMovieData(mI, mP) ``` is a function that is used frequently for setting movieIndex and moviePrice
 
 
 
