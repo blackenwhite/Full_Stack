@@ -42,7 +42,7 @@ Next, we use "display:flex" to place the box in the centre both horizontally and
 For the movie-container, design is done according to pixels so that in every operating system and every browser the design looks same.
 //Code snippet:
 
-`
+```
 .movie-container select {
   background-color: #fff;
   border: 0;
@@ -54,7 +54,7 @@ For the movie-container, design is done according to pixels so that in every ope
   -webkit-appearance: none;
   appearance: none;
 }
-`
+```
 
 The seats are designed in a similar manner and to make them display row-wise, we use :----
            ``` .row {
