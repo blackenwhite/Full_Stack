@@ -66,6 +66,7 @@ Different functions  and eventlisteners are added; the important ones are descri
 The ```updatesc()``` is required to  update the total and the count of seats selected and save it to local storage.
 LocalStorage has ben used whenever required to save the data locally, so that the list of selected seats are not lost each time we refresh the page.
 An eventListener has been added to the container class ; we can togggle from selected to unselected and vice-versa. 
+
 ```c.addEventListener('click', e => {
   if (
     e.target.classList.contains('seat') &&
@@ -75,12 +76,15 @@ An eventListener has been added to the container class ; we can togggle from sel
 
     updateSc();
   }
-});```
+});
+```
 
 
 ``` function setMovieData(mI, mP) ``` is a function that is used frequently for setting movieIndex and moviePrice
 
-
+# Project Specifications
+Markup: * An UI showing movies to select
+        * hola
 
 
 
